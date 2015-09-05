@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Share This Page",
+    "version": "0.1.0",
+
+    "description": "share current page immediately.",
+
+    "icons": {
+        "16": "icon16.png",
+        "19": "icon19.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+
+    "browser_action": {
+        "default_icon": "icon32.png",
+        "default_title": "click to share current page.",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+          "tabs"
+    ],
+
+    "author": "exoticknight"
+}

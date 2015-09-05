@@ -1,0 +1,56 @@
+body {
+    font-size: 63%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    font-size: 1.8em;
+    padding: 0.2em;
+}
+
+.main {
+    width: 35em;
+}
+
+.row {
+    margin: 0.5em;
+}
+
+.destination {
+    list-style: none;
+}
+
+.destination li {
+    float: left;
+}
+
+.share-btn {
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    opacity: 0.3;
+    -webkit-transition: all .5s;
+}
+
+.share-btn:hover {
+    opacity: 1;
+}
+
+.btn-qzone {background: url(../image/qzone.png)}
+
+.btn-tencent {background: url(../image/tencent.png)}
+
+.btn-sina {background: url(../image/sina.png)}
+
+.btn-sohu {background: url(../image/sohu.png)}
+
+.btn-netease {background: url(../image/netease.png)}
+
+.btn-twitter {background: url(../image/twitter.png)}
